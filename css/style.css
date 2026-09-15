@@ -1,23 +1,33 @@
 body{
-    background-color: pink;
+    background-color: rgb(235, 192, 255);
 }
 
 h1 {
     font-weight: bolder;
     font-size: 50px;
+    #unique-header {
+        color: rgb(130, 0, 217); 
+      }
 }
 
 h2 {
-    font-weight: light;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 30px;
     text-decoration: underline;
 }
 
 p {
-    font-family: Courier;
+    font-family: Helvetica;
 }
 
 ul{
-    list-style-type: disc;
+    list-style-type: square;
 }
 
+img {
+    border: 5px solid #4f4cf7;
+  }
+
+.step4 {
+    background-color: rgb(248, 255, 150);      
+  }
